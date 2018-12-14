@@ -1,0 +1,8 @@
+version: '3.6'
+services:
+    php:
+      image: webdevops/php-apache-dev:alpine-php5
+      ports:
+          - "80:80"
+      volumes:
+          - ./app:/app/
